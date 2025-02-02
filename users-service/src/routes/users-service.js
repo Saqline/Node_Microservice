@@ -4,7 +4,7 @@ const {
   loginUser,
   refreshTokenUser,
   logoutUser,
-} = require("../controllers/identity-controller");
+} = require("../controllers/users-controller");
 
 const router = express.Router();
 
